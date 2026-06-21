@@ -1,8 +1,8 @@
-const express = require('express')
-const morgan = require('morgan');
-const { createProxyMiddleware } = require('http-proxy-middleware')
-const { rateLimit } =  require('express-rate-limit')
-const axios = require('axios');
+import express from 'express'
+import morgan from 'morgan';
+import { createProxyMiddleware } from 'http-proxy-middleware'
+import { rateLimit } from 'express-rate-limit'
+import axios from 'axios';
 
 const app = express();
 
